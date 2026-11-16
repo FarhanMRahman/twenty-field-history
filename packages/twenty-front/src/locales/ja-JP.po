@@ -797,6 +797,11 @@ msgstr "{failedCount, plural, one {# 件のワークスペースが失敗して�
 msgid "{fieldCount} fields on {recordLabel}"
 msgstr "{recordLabel} のフィールド数 {fieldCount}"
 
+#. js-lingui-id: CrFg3q
+#: src/modules/side-panel/hooks/useOpenFieldHistoryInSidePanel.ts
+msgid "{fieldLabel} history"
+msgstr ""
+
 #. js-lingui-id: /9/Y5z
 #: src/modules/spreadsheet-import/steps/components/UploadStep/components/DropZone.tsx
 msgid "{fileName} upload rejected"
@@ -6031,6 +6036,11 @@ msgstr "変更"
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
 msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
 msgstr "変更を保存しました。更新された権限を適用するには、開いているTwentyタブを再読み込みしてください。再読み込みすると、進行中の通話と録音が終了します。"
+
+#. js-lingui-id: sdq5LS
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "Changes to this field will appear here."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -11469,7 +11479,9 @@ msgid "Employees"
 msgstr "従業員"
 
 #. js-lingui-id: N2S1rs
-#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiffSideValue.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/ai/components/AiChatRecordApprovalReview.tsx
@@ -19948,6 +19960,11 @@ msgstr "このカレンダーイベントには、まだ通話録音が存在し
 #: src/modules/object-record/record-field/ui/form-types/components/FormCallingCodeSelectInput.tsx
 msgid "No calling code"
 msgstr "国番号なし"
+
+#. js-lingui-id: hsuJlf
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "No changes recorded"
+msgstr ""
 
 #. js-lingui-id: ydE3k+
 #: src/modules/inbox/components/InboxThreadChannelPicker.tsx
@@ -32530,6 +32547,11 @@ msgstr "ビューフィルタグループ"
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view group"
 msgstr "ビューグループ"
+
+#. js-lingui-id: XWuVwN
+#: src/modules/object-record/record-field-list/anchored-portal/components/RecordFieldListCellHistoryButton.tsx
+msgid "View history"
+msgstr ""
 
 #. js-lingui-id: rbFOyY
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailGeneralTab.tsx

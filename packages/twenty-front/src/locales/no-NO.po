@@ -797,6 +797,11 @@ msgstr "{failedCount, plural, one {# arbeidsområde har feilet} other {# arbeids
 msgid "{fieldCount} fields on {recordLabel}"
 msgstr "{fieldCount} felt på {recordLabel}"
 
+#. js-lingui-id: CrFg3q
+#: src/modules/side-panel/hooks/useOpenFieldHistoryInSidePanel.ts
+msgid "{fieldLabel} history"
+msgstr ""
+
 #. js-lingui-id: /9/Y5z
 #: src/modules/spreadsheet-import/steps/components/UploadStep/components/DropZone.tsx
 msgid "{fileName} upload rejected"
@@ -6031,6 +6036,11 @@ msgstr "Endringer"
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
 msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
 msgstr "Endringene er lagret. Last inn åpne Twenty-faner på nytt for å ta i bruk de oppdaterte tillatelsene. Å laste inn på nytt avslutter aktive samtaler og opptak."
+
+#. js-lingui-id: sdq5LS
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "Changes to this field will appear here."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -11469,7 +11479,9 @@ msgid "Employees"
 msgstr "Ansatte"
 
 #. js-lingui-id: N2S1rs
-#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiffSideValue.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/ai/components/AiChatRecordApprovalReview.tsx
@@ -19948,6 +19960,11 @@ msgstr "Det finnes ikke noe samtaleopptak for denne kalenderhendelsen ennå."
 #: src/modules/object-record/record-field/ui/form-types/components/FormCallingCodeSelectInput.tsx
 msgid "No calling code"
 msgstr "Ingen landskode"
+
+#. js-lingui-id: hsuJlf
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "No changes recorded"
+msgstr ""
 
 #. js-lingui-id: ydE3k+
 #: src/modules/inbox/components/InboxThreadChannelPicker.tsx
@@ -32530,6 +32547,11 @@ msgstr "visningsfiltergruppe"
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view group"
 msgstr "visningsgruppe"
+
+#. js-lingui-id: XWuVwN
+#: src/modules/object-record/record-field-list/anchored-portal/components/RecordFieldListCellHistoryButton.tsx
+msgid "View history"
+msgstr ""
 
 #. js-lingui-id: rbFOyY
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailGeneralTab.tsx

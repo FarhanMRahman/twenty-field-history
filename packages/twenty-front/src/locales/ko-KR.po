@@ -797,6 +797,11 @@ msgstr "{failedCount, plural, other {실패한 워크스페이스 #개}}"
 msgid "{fieldCount} fields on {recordLabel}"
 msgstr "{recordLabel}에 필드 {fieldCount}개"
 
+#. js-lingui-id: CrFg3q
+#: src/modules/side-panel/hooks/useOpenFieldHistoryInSidePanel.ts
+msgid "{fieldLabel} history"
+msgstr ""
+
 #. js-lingui-id: /9/Y5z
 #: src/modules/spreadsheet-import/steps/components/UploadStep/components/DropZone.tsx
 msgid "{fileName} upload rejected"
@@ -6031,6 +6036,11 @@ msgstr "변경 사항"
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
 msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
 msgstr "변경 사항이 저장되었습니다. 업데이트된 권한을 적용하려면 열려 있는 Twenty 탭을 새로고침하세요. 새로고침하면 진행 중인 통화와 녹음이 종료됩니다."
+
+#. js-lingui-id: sdq5LS
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "Changes to this field will appear here."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -11469,7 +11479,9 @@ msgid "Employees"
 msgstr "직원"
 
 #. js-lingui-id: N2S1rs
-#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiffSideValue.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/ai/components/AiChatRecordApprovalReview.tsx
@@ -19948,6 +19960,11 @@ msgstr "이 캘린더 일정에는 아직 통화 녹음이 없습니다."
 #: src/modules/object-record/record-field/ui/form-types/components/FormCallingCodeSelectInput.tsx
 msgid "No calling code"
 msgstr "국가 번호 없음"
+
+#. js-lingui-id: hsuJlf
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "No changes recorded"
+msgstr ""
 
 #. js-lingui-id: ydE3k+
 #: src/modules/inbox/components/InboxThreadChannelPicker.tsx
@@ -32530,6 +32547,11 @@ msgstr ""
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view group"
 msgstr "보기 그룹"
+
+#. js-lingui-id: XWuVwN
+#: src/modules/object-record/record-field-list/anchored-portal/components/RecordFieldListCellHistoryButton.tsx
+msgid "View history"
+msgstr ""
 
 #. js-lingui-id: rbFOyY
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailGeneralTab.tsx

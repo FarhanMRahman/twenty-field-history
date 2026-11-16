@@ -797,6 +797,11 @@ msgstr "{failedCount, plural, zero {لا مساحات عمل فاشلة} one {م
 msgid "{fieldCount} fields on {recordLabel}"
 msgstr "{fieldCount, plural, zero {لا حقول} one {حقل واحد} two {حقلان} few {# حقول} many {# حقلًا} other {# حقل}} على {recordLabel}"
 
+#. js-lingui-id: CrFg3q
+#: src/modules/side-panel/hooks/useOpenFieldHistoryInSidePanel.ts
+msgid "{fieldLabel} history"
+msgstr ""
+
 #. js-lingui-id: /9/Y5z
 #: src/modules/spreadsheet-import/steps/components/UploadStep/components/DropZone.tsx
 msgid "{fileName} upload rejected"
@@ -6031,6 +6036,11 @@ msgstr "التغييرات"
 #: src/modules/settings/applications/components/SettingsApplicationIframeMediaPermissionsSection.tsx
 msgid "Changes saved. Reload open Twenty tabs to apply the updated permissions. Reloading ends active calls and recordings."
 msgstr "تم حفظ التغييرات. أعد تحميل علامات تبويب Twenty المفتوحة لتطبيق الأذونات المحدّثة. تؤدي إعادة التحميل إلى إنهاء المكالمات والتسجيلات النشطة."
+
+#. js-lingui-id: sdq5LS
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "Changes to this field will appear here."
+msgstr ""
 
 #. js-lingui-id: oRH6Dq
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -11469,7 +11479,9 @@ msgid "Employees"
 msgstr "الموظفون"
 
 #. js-lingui-id: N2S1rs
-#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiffSideValue.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRelationFieldDiffValues.tsx
 #: src/modules/ai/components/AiChatRecordApprovalReview.tsx
@@ -19948,6 +19960,11 @@ msgstr "لا يوجد تسجيل للمكالمة لهذا الحدث في ال�
 #: src/modules/object-record/record-field/ui/form-types/components/FormCallingCodeSelectInput.tsx
 msgid "No calling code"
 msgstr "بدون رمز الاتصال"
+
+#. js-lingui-id: hsuJlf
+#: src/modules/side-panel/pages/field-history/components/SidePanelFieldHistoryPage.tsx
+msgid "No changes recorded"
+msgstr ""
 
 #. js-lingui-id: ydE3k+
 #: src/modules/inbox/components/InboxThreadChannelPicker.tsx
@@ -32530,6 +32547,11 @@ msgstr "مجموعة عوامل تصفية العرض"
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view group"
 msgstr "مجموعة العرض"
+
+#. js-lingui-id: XWuVwN
+#: src/modules/object-record/record-field-list/anchored-portal/components/RecordFieldListCellHistoryButton.tsx
+msgid "View history"
+msgstr ""
 
 #. js-lingui-id: rbFOyY
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailGeneralTab.tsx

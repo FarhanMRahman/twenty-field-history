@@ -2793,6 +2793,12 @@ msgctxt "fieldMetadata.label"
 msgid "Cc"
 msgstr ""
 
+#. js-lingui-id: Sojsjr
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Changed fields"
+msgstr ""
+
 #. js-lingui-id: abq5Mk
 #: src/engine/core-modules/workspace/workspace.exception.ts
 msgid "Changing log retention requires an Organization subscription."
@@ -4576,6 +4582,12 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
 msgctxt "commandMenuItem.shortLabel"
 msgid "Developers"
+msgstr ""
+
+#. js-lingui-id: pdAOvt
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "Diff keys of the fields changed by this event"
 msgstr ""
 
 #. js-lingui-id: Kggq11
